@@ -1,0 +1,28 @@
+<svg width="145rem" preserveAspectRatio="none" height="187" viewBox="0 0 1440 187" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente para o preenchimento -->
+    <linearGradient id="paint0_linear_164_8" x1="0" y1="115.411" x2="1440" y2="115.411" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A461EF" />
+      <stop offset="0.5" stop-color="#F864A2" />
+      <stop offset="1" stop-color="#FB9071" />
+    </linearGradient>
+    
+    <!-- Gradiente para o desfoque -->
+    <linearGradient id="fade-out" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="85%" stop-color="white" stop-opacity="1" />
+      <stop offset="100%" stop-color="white" stop-opacity="0" />
+    </linearGradient>
+    
+    <!-- Máscara que aplica o gradiente de opacidade -->
+    <mask id="fade-mask">
+      <rect width="1440" height="187" fill="url(#fade-out)" />
+    </mask>
+  </defs>
+
+  <!-- Forma principal com a máscara -->
+  <path
+    d="M0 44.4107C590.5 103.911 1237.85 -80.4473 1440 44.4107V186.411H0V44.4107Z"
+    fill="url(#paint0_linear_164_8)"
+    mask="url(#fade-mask)"
+  />
+</svg>

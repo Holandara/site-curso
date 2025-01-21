@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App-header {
+    background-color: #0F0F16;
+    height: 50rem;
+}
+
+.inicio{
+    color: #ffffff;
+    display: grid;
+    align-items: center;
+    padding-top: 5%;
+    padding-right:10%;
+    
+}
+
+.texto-domine{
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 500;
+    font-size: 2.25rem;
+    padding-top: 6.25rem;
+} 
+
+.texto-pratica{
+    font-family: 'LEMON MILK', sans-serif; 
+    font-weight:500;  
+    font-size: 6rem;
+    background: linear-gradient(71deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 50%, rgba(254,155,98,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.texto-curso{
+    font-family: "Montserrat", serif;
+    font-size: 1.25rem;
+}
+
+.botao{
+    margin-top: 8%;
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    align-content: center;
+    width:21rem;
+    height: 5rem;
+    padding: 2%;
+    align-self: auto;
+    background: linear-gradient(90deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 50%, rgba(254,155,98,1) 100%);
+}
+
+.moreweight{
+    font-weight: bold;
+}
+
+.traco{
+    font-weight:1000;
+    color: #FD9667;
+    
+}
+/* TEXTOS */
+.lado1{
+    padding-top: 0%; /*DISTANCIA TEXTO DO TOPO*/
+    padding-left: 15%;
+    background-color: #0F0F16;
+    margin-left: 10%;
+}
+
+/* IMAGENS E SGV */
+.lado2{
+    margin-top: 10%; /*Espaçamento superior do bloco imagem e SGV */
+    padding: 20%;
+    padding-top: 10%;
+    background-color: #0F0F16;
+}
+
+.blob-line{
+    top: -10rem;
+    right:-5rem;
+    z-index: 10;
+    width: 60rem;
+    height: 60rem;
+    transform: rotate(0deg);
+}
+
+.blob-image{
+    margin: -3rem;
+    top: -10rem;
+    right: 3rem;
+    z-index: 20;
+    width: 50rem;
+    height: 50rem;
+    transform: rotate(130deg);
+    
+}
+
+/* Posição braco */
+.imagem1{ 
+    z-index: 30;
+    width: 16rem;
+    height: 27rem;
+    border-radius: 20rem;
+    top:-10rem;
+    left:25rem;
+    filter: drop-shadow(0px 10px 4px rgba(0,0,0,0.3));
+}
+
+/* Posição Moça */
+.imagem2{
+    z-index: 20;
+    width: 16rem;
+    height: 27rem;
+    border-radius: 20rem;
+    top: 5rem;
+    filter: drop-shadow(0px 10px 4px rgba(0,0,0,0.3));
+}
+
+.imagemBraco{
+    margin: 10%;
+    z-index: 30;
+    border-radius: 1.25rem;
+    transform: rotate(10deg);
+}
+
+.imagemMascara {
+    margin: 10%;
+    z-index: 30;
+    border-radius: 1.25rem;
+    transform: rotate(-20deg);
+}
+
+.divisaoContainer{
+    background-color: #0F0F16;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.divisao{
+    
+    border-radius: 1rem;
+    width: 50rem;
+    height: 6rem;
+    background: linear-gradient(90deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 50%, rgba(254,155,98,1) 100%);
+    z-index: 70;
+}
+
+
+/*O QUE VOCE VAI APRENDER | SEÇÃO*/
+
+.textoItem{
+    padding-top:5%;
+}
+.titulo-aprender{
+    font-family: 'LEMON MILK', sans-serif; 
+    font-weight:500;  
+    font-size: 3rem;
+    background: linear-gradient(95deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 50%, rgba(254,155,98,1) 100%);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.container-aprender{
+    color: white;
+    padding: 10%;
+    background-color: #0F0F16;
+    
+}
+.subtitulo-aprender {
+    font-family: "Montserrat", serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Reduz o espaço entre o número e o texto */
+    flex-wrap: nowrap; /* Evita quebra de linha dentro do flexbox */
+    width:max-content;
+       
+}
+
+.aprenderTextos {
+    width: 100%; /* Garante espaço total disponível */
+}
+
+
+.numeros{
+    font-family: 'LEMON MILK', sans-serif; 
+    display: flex;
+    width: 4rem; /* Set this to slightly wider than the longest string */
+    height:4rem;
+    font-weight:400;
+    font-size: 2.5rem;
+    align-items: center;  
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%; 
+    padding: 8%; 
+    background: linear-gradient(71deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 100%);
+}
+
+.descricao-aprender{
+    font-family: "Montserrat", serif;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding-left: 11.3%;
+}
+
+.fitcheckalta19{
+    border-radius: 1rem;
+}
+
+/*INVISTA NA SUA CARREIRA SEÇÃO ------------------------------------------------------------------------------------------------------*/
+
+.carreiraTexto{
+    padding: 10%;
+    font-family: 'LEMON MILK', sans-serif;
+    color: #ffffff;
+    font-size: 4rem;
+    background-color: #0F0F16;
+    font-weight:500;
+}
+
+.carreiraTexto2{
+    background: linear-gradient(71deg, rgba(164,97,239,1) 0%, rgba(250,100,160,1) 50%, rgba(254,155,98,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+/* Estilo padrão para telas maiores -------------------------------------------------------------------------------------------------------*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaço entre as colunas */
+  }
+  
+  /* Ajuste para telas menores */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Uma coluna */
+    }
+  
+    .lado1 {
+        order: 2; /* Move lado1 para baixo */
+        order: 1; /* Move o lado2 para cima */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Coloca as imagens em uma coluna */
+    }
+  
+    .lado2 {
+      order: 1; /* Move lado2 para cima */
+      order: 1; /* Move o lado2 para cima */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Coloca as imagens em uma coluna */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .subtitulo-aprender {
+        font-size: 1.5rem; /* Diminui o tamanho da fonte para caber */
+        gap: 0.3rem; /* Reduz o espaço no mobile */
+    }
+}
