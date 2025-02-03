@@ -1,4 +1,5 @@
 import './App.css';
+import { motion } from "motion/react";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             </div>
 
             {/* Coluna direita | com imagens */}
+
             <div className="lado2 col-start-2 row-span-full relative responsive">
               <div className="blob-image absolute">
                 <img src="blob.svg" alt="blob" />
@@ -92,9 +94,8 @@ function App() {
           </div>
 
           {/* Coluna direita: Imagens/SVG */}
-          <div className="imagensAprender w-full md:w-2/4  p-4 text-center">
+          <div className="imagensAprender w-full md:w-2/4  p-4 text-center relative">
                 <img className="fitcheckalta19" src="Fitcheck2_Alta-19.jpg" alt="img fitcheck2" />
-                
           </div>
         </div>
       </div>
