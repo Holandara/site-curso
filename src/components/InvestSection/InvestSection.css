@@ -1,0 +1,45 @@
+.container-de-blocos{
+  background-color: #0f0f16;
+}
+.carreiraTexto {
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: "LEMON MILK", sans-serif;
+    color: #ffffff;
+    font-size: 3.33vw;
+    background-color: #0f0f16;
+    font-weight: 500;
+  }
+  
+  .carreiraTexto2 {
+    background: linear-gradient(
+      71deg,
+      rgba(164, 97, 239, 1) 0%,
+      rgba(250, 100, 160, 1) 50%,
+      rgba(254, 155, 98, 1) 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .carreiraTexto {
+      font-size: 10vw;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .carreiraTexto {
+      font-size: 10vw; /* Ajusta o tamanho do texto */
+      padding: 5%; /* Reduz o padding */
+    }
+  
+    .flex {
+      flex-direction: column; /* Coloca os blocos em coluna */
+    }
+  
+    .container-de-blocos {
+      width: 100%; /* Ocupa a largura total */
+      padding: 5%; /* Reduz o padding */
+    }
+  }

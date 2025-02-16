@@ -1,0 +1,97 @@
+.container-aprender {
+    color: white;
+    padding: 10%;
+    background-color: #0f0f16;
+  }
+  
+  .titulo-aprender {
+    font-family: "LEMON MILK", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    background: linear-gradient(
+      95deg,
+      rgba(164, 97, 239, 1) 0%,
+      rgba(250, 100, 160, 1) 50%,
+      rgba(254, 155, 98, 1) 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .textoItem {
+    padding-top: 5%;
+  }
+  
+  .subtitulo-aprender {
+    font-family: "Montserrat", serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    width: max-content;
+  }
+  
+  .numeros {
+    font-family: "LEMON MILK", sans-serif;
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    padding: 8%;
+    background: linear-gradient(
+      71deg,
+      rgba(164, 97, 239, 1) 0%,
+      rgba(250, 100, 160, 1) 100%
+    );
+  }
+  
+  .descricao-aprender {
+    font-family: "Montserrat", serif;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    padding-left: 11.3%;
+  }
+  
+  .fitcheckalta19 {
+    border-radius: 1rem;
+  }
+
+  /* RESPONSIVO */
+  @media (max-width: 768px) {
+    .titulo-aprender {
+      font-size: 2rem; /* Reduz o tamanho do título */
+    }
+  
+    .subtitulo-aprender {
+      font-size: 1.5rem; /* Reduz o tamanho do subtítulo */
+      gap: 0.5rem; /* Ajusta o espaçamento */
+    }
+  
+    .numeros {
+      width: 3rem;
+      height: 3rem;
+      font-size: 2rem;
+    }
+  
+    .descricao-aprender {
+      font-size: 1rem; /* Reduz o tamanho da descrição */
+      padding-left: 0; /* Remove o padding extra */
+    }
+  
+    .secaoAprender {
+      flex-direction: column; /* Coloca os elementos em coluna */
+    }
+  
+    .aprenderTextos,
+    .imagensAprender {
+      width: 100%; /* Ocupa a largura total */
+      padding: 1rem; /* Adiciona um pouco de padding */
+    }
+  }
