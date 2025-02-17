@@ -39,11 +39,11 @@ function App() {
         </div>
       </header>
 
-      {/* Divisao de seção */}
+      {/* Divisao de seção
       <div className="divisaoContainer">
         <div className="divisao">
         </div>
-      </div>
+      </div> */}
 
       {/* Seção Aprender */}
       <div className="container-aprender">
@@ -100,11 +100,11 @@ function App() {
         </div>
       </div>
       
-      {/* Divisao de seção */}
+      {/* Divisao de seção
       <div className="divisaoContainer">
         <div className="divisao">
         </div>
-      </div>
+      </div> */}
 
        {/*INVISTA NA SUA CARREIRA */}
       <div className="carreiraTexto">invista  <span className="carreiraTexto2">hoje</span> na sua <span className="carreiraTexto2">carreira!</span></div>
