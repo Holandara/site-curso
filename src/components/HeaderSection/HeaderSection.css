@@ -220,3 +220,8 @@
       margin-top: 2rem; /* Ajusta o espaçamento */
     }
   }
+
+ /* No seu arquivo CSS */
+.blob-image, .blob-line, .imagem1, .imagem2 {
+  will-change: transform; /* Otimiza a renderização */
+}

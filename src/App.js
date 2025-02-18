@@ -12,6 +12,7 @@ function App() {
       <LearnSection />
       <Divider />
       <InvestSection />
+      
     </div>
   );
 }
