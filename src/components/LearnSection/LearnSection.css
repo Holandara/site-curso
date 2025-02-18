@@ -16,6 +16,8 @@
     );
     background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .textoItem {
@@ -66,12 +68,12 @@
   /* RESPONSIVO */
   @media (max-width: 768px) {
     .titulo-aprender {
-      font-size: 2rem; /* Reduz o tamanho do título */
+      font-size: 2rem;
     }
   
     .subtitulo-aprender {
-      font-size: 1.5rem; /* Reduz o tamanho do subtítulo */
-      gap: 0.5rem; /* Ajusta o espaçamento */
+      font-size: 1.5rem;
+      gap: 0.5rem;
     }
   
     .numeros {

@@ -14,14 +14,14 @@ const InvestSection = () => {
           title="Dia 05/05 e 06/05"
           location="Novadata Núcleo Bandeirante"
           time="7h às 17h"
-          price="R$250"
+          price="250"
           discount="Desconto de **% para profissionais Cref7"
         />
         <CourseBlock
           title="Dia 05/05 e 06/05"
           location="Novadata Núcleo Bandeirante"
           time="7h às 17h"
-          price="R$250"
+          price="250"
           discount="Desconto de **% para profissionais Cref7"
         />
       </div>

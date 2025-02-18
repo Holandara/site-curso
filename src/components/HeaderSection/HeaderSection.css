@@ -4,7 +4,7 @@
 
 
 .App-header {
-    width: 100vw;
+    width: 100%;
     background-color: #0f0f16;
     height: 50rem;
     overflow: hidden;
@@ -38,6 +38,8 @@
     );
     background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .texto-curso {
@@ -67,9 +69,11 @@
   .lado1 {
     padding-top: 0%;
     padding-left: 15%;
-    background-color: #0f0f16;
+    background-color:transparent;
     margin-left: 10%;
     max-width: 100%;
+    z-index: 2; /* Define um z-index maior para ficar na frente */
+    position: relative; /* Certifique-se de que a posição seja relativa */
   }
   
   .lado2 {
@@ -78,6 +82,8 @@
     padding-top: 10%;
     background-color: #0f0f16;
     max-width: 100%;
+    z-index: 1; /* Define um z-index menor para ficar atrás */
+    position: relative; /* Certifique-se de que a posição seja relativa */
   }
   
   .blob-line {
@@ -204,6 +210,8 @@
       width: 15rem;
       height: 2rem;
     }
+
+
   
     .grid {
       grid-template-columns: 1fr; /* Uma coluna em telas menores */

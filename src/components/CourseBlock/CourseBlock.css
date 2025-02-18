@@ -1,7 +1,6 @@
 
 .container-de-blocos {
   padding-top: 5%;
-  padding-left: 10%;
   padding-bottom: 5%;
   }
   
@@ -96,16 +95,16 @@
 
   @media (max-width: 768px) {
     .bloco-curso {
-      width: 100%; /* Ocupa a largura total */
-      max-width: none; /* Remove a largura máxima */
-      margin: 1rem 0; /* Adiciona margem entre os blocos */
+      width: 100%;
+      max-width: none;
+      margin: 1rem 0;
     }
   
     .bloco-curso h1 {
-      font-size: 1.5rem; /* Reduz o tamanho do título */
+      font-size: 1.5rem;
     }
   
     .bloco-curso p {
-      font-size: 1rem; /* Reduz o tamanho do texto */
+      font-size: 1rem;
     }
-  }
+}
