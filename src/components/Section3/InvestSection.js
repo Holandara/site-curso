@@ -1,12 +1,12 @@
 import React from 'react';
-import CourseBlock from '../CourseBlock/CourseBlock';
+import CourseBlock from './CourseBlock/CourseBlock';
 import './InvestSection.css';
 
 const InvestSection = () => {
   return (
     <div>
-      <div className="carreiraTexto">
-        invista <span className="carreiraTexto2">hoje</span> na sua{' '}
+      <div className="carreiraTexto" id='contato'>
+        invista <span className="carreiraTexto2" >hoje</span> na sua{' '}
         <span className="carreiraTexto2">carreira!</span>
       </div>
       <div className="flex md:flex-row-reverse flex-wrap">

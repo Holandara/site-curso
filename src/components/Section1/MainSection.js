@@ -1,9 +1,9 @@
 import React from 'react';
-import './HeaderSection.css';
+import './MainSection.css';
 
 const HeaderSection = () => {
   return (
-    <header className="App-header">
+    <main className="App-header" id="home">
       <div className="inicio">
         <div className="grid grid-cols-2 flex-1">
           {/* Coluna esquerda | com textos */}
@@ -34,7 +34,7 @@ const HeaderSection = () => {
           </div>
         </div>
       </div>
-    </header>
+    </main>
   );
 };
 

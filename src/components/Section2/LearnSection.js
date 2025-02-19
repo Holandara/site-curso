@@ -3,7 +3,7 @@ import './LearnSection.css';
 
 const LearnSection = () => {
   return (
-    <div className="container-aprender">
+    <div className="container-aprender" id="sobre">
       <div className="titulo-aprender">O que você vai aprender?</div>
       <div className="secaoAprender flex flex-wrap md:flex-nowrap">
         {/* Coluna esquerda: Textos */}

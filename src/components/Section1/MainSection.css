@@ -87,16 +87,16 @@
   }
   
   .blob-line {
-    top: -10rem;
-    right: 1rem;
-    max-width: 100%;
-    width: 130rem;
+    top: -15rem;
+    right: -3rem;
+    width: 55rem;
+    rotate: 52deg;
   }
   
   .blob-image {
-    top: -10rem;
-    right: 3rem;
-    width: 50rem;
+    top: -8rem;
+    right: 2rem;
+    width: 45rem;
   }
   
   .imagem1,
