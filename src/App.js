@@ -6,6 +6,7 @@ import InvestSection from './components/InvestSection/InvestSection.js';
 
 function App() {
   return (
+    /*alouuuu*/
     <div className="App">
       <HeaderSection />
       <Divider />
