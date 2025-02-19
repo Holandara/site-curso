@@ -7,7 +7,7 @@ const LearnSection = () => {
       <div className="titulo-aprender">O que você vai aprender?</div>
       <div className="secaoAprender flex flex-wrap md:flex-nowrap">
         {/* Coluna esquerda: Textos */}
-        <div className="aprenderTextos flex flex-col gap-6 w-full md:w-2/4 p-4">
+        <div className="aprenderTextos flex flex-col gap-6 w-full md:w-2/4">
           {[
             "Dobras Cutâneas",
             "Bioimpedância",
