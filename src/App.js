@@ -1,18 +1,19 @@
-import './App.css';
-import HeaderSection from './components/HeaderSection/HeaderSection.js';
-import Divider from './components/Divider/Divider.js';
-import LearnSection from './components/LearnSection/LearnSection.js';
-import InvestSection from './components/InvestSection/InvestSection.js';
+import "./App.css";
+import Header from "./components/HeaderSection/Header.js";
+import Section1 from "./components/Section1/MainSection.js";
+import Section2 from "./components/Section2/LearnSection.js";
+import Section3 from "./components/Section3/InvestSection.js";
+import Divider from "./components/Adicional/Divider/Divider.js";
 
 function App() {
   return (
-    /*alouuuu*/
     <div className="App">
-      <HeaderSection />
+      <Header />
+      <Section1 />
       <Divider />
-      <LearnSection />
+      <Section2 />
       <Divider />
-      <InvestSection />
+      <Section3 />
     </div>
   );
 }
