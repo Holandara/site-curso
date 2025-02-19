@@ -12,13 +12,13 @@ export default function Modal({ isOpen, setIsOpen }) {
     <div className="modal-overlay">
       <div className="modal">
         <div className="modal-header">
-          <h2>Informações do Curso</h2>
+          <h2>Estamos quase lá!</h2>
           <button className="modal-close" onClick={handleCloseModal}>
             &times;
           </button>
         </div>
         <div className="modal-body">
-          <p>Preencha o formulário abaixo para reservar sua vaga:</p>
+          <p>Preencha os campos obrigatórios</p>
           {/* Adicione um formulário aqui */}
         </div>
         <div className="modal-footer">
