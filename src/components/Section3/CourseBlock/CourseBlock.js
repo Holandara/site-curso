@@ -1,7 +1,20 @@
-import React from 'react';
-import './CourseBlock.css';
+import React from "react";
+import "./CourseBlock.css";
 
-const CourseBlock = ({ title, location, time, price, discount }) => {
+const CourseBlock = ({
+  title,
+  location,
+  time,
+  price,
+  discount,
+  setOpen,
+  setSelected,
+}) => {
+  const handleOpenModal = () => {
+    setSelected({ title, location, time, price, discount });
+    setOpen(true);
+  };
+
   return (
     <div className="container-de-blocos w-full md:w-2/4 bg-gray-400 text-center text-gray-700">
       <div className="bloco-curso">
@@ -19,14 +32,17 @@ const CourseBlock = ({ title, location, time, price, discount }) => {
             {price}
           </h2>
           <p className="text-base">{discount}</p>
-          <button className="btn-entrar relative inline-flex items-center justify-center p-0.5 mb-10 me-2 
+          <button
+            onClick={handleOpenModal}
+            className="btn-entrar relative inline-flex items-center justify-center p-0.5 mb-10 me-2 
           overflow-hidden text-md font-md text-gray-900 rounded-lg group bg-gradient-to-br 
           from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white
-          dark:text-white focus:ring-4 focus:outline-none focus:ring-black ">
+          dark:text-white focus:ring-4 focus:outline-none focus:ring-black "
+          >
             <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-            Reservar
+              Reservar
             </span>
-            </button>
+          </button>
         </section>
       </div>
     </div>
