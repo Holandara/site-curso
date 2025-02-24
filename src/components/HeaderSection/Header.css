@@ -1,0 +1,90 @@
+.header {
+  background-color: #2d3748; /* bg-gray-800 */
+  color: #fff; /* text-white */
+  padding: 1rem 0; /* py-4 */
+  position: fixed; /* fixed */
+  width: 100%; /* w-full */
+  z-index: 10; /* z-10 */
+}
+
+.container {
+  max-width: 1280px; /* container */
+  margin: 0 auto; /* mx-auto */
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  justify-content: space-between; /* justify-between */
+}
+
+.logo {
+  font-size: 2rem; /* text-xl */
+  font-family: "LEMON MILK", sans-serif; /* font-bold */
+}
+
+.nav-list {
+  display: flex; /* flex */
+  font-family: "DOWNEY"; /* font-semibold */
+  gap: 1.5rem; /* space-x-6 */
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #a0aec0; /* hover:text-gray-300 */
+  background-color: #e2e8f0; /* hover:bg-gray-300 */
+}
+
+/* Media for tablets */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1rem; /* Add padding to the container */
+  }
+
+  .nav-list {
+    gap: 1rem; /* Reduce space between nav items */
+  }
+
+  .logo {
+    font-size: 1rem; /* Reduce logo font size */
+  }
+}
+
+/* Media for smartphones */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .logo {
+    margin-bottom: 1rem; /* Add margin below the logo */
+  }
+
+  nav {
+    display: none; /* Hide the nav */
+  }
+}
+
+/* Media for small smartphones */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 0.875rem; /* Further reduce logo font size */
+  }
+}
+
+/* Media for ultra-wide monitors (21:9) */
+@media (min-aspect-ratio: 21/9) {
+  .container {
+    max-width: 2560px; /* Increase max-width for ultra-wide monitors */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Increase logo font size */
+  }
+
+  .nav-list {
+    gap: 2rem; /* Increase space between nav items */
+  }
+}

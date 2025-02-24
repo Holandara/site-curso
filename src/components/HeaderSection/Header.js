@@ -3,23 +3,23 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 text-white py-4 fixed w-full z-10">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="text-xl font-bold">Limiar</div>
+    <header className="header">
+      <div className="container">
+        <div className="logo">LIMIAR</div>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="nav-list">
             <li>
-              <a href="#home" className="hover:text-gray-300">
+              <a href="#home" className="nav-link">
                 Home
               </a>
             </li>
             <li>
-              <a href="#sobre" className="hover:text-gray-300">
+              <a href="#sobre" className="nav-link">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#contato" className="hover:text-gray-300">
+              <a href="#contato" className="nav-link">
                 Contato
               </a>
             </li>

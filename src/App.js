@@ -6,6 +6,7 @@ import Section2 from "./components/Section2/LearnSection.js";
 import Section3 from "./components/Section3/InvestSection.js";
 import Divider from "./components/Adicional/Divider/Divider.js";
 import Modal from "./components/Adicional/Modal/Modal.jsx"; // Importe o Modal
+import SectionTeste from "./components/Adicional/Section-teste.js"; // Importe o SectionTeste
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,15 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Section1 />
-      <Divider />
-      <Section2 />
-      <Divider />
-      <Section3 setOpen={setIsOpen} setSelected={setSelectedCourse} />{" "}
-      {/* Passe a função para Section3 */}
-      {isOpen && (
-        <Modal isOpen={isOpen} setIsOpen={setIsOpen} course={selectedCourse} />
-      )}
+      <SectionTeste />
+      <SectionTeste/>
     </div>
   );
 }
