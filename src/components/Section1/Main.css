@@ -1,0 +1,20 @@
+.App-main {
+  display: flex;
+  justify-content: space-around; /* Distribute space between the blocks */
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 20px; /* Add some padding */
+}
+
+.left-block {
+  background-color: #0a0096;
+  height: 100%;
+    width: 50%; /* Example background color */
+}
+
+.right-block {
+    height: 100%;
+    width: 50%;
+  background-color: #ff0000; /* Example background color */
+}
