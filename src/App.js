@@ -12,7 +12,8 @@ import SectionTeste from "./components/Adicional/Section-teste.js"; // Importe o
 function App() {
   return (
     <div className="App">
-      <Section1/>
+      <Main/>
+      <Section1 />
       <SectionTeste />
       <SectionTeste/>
     </div>

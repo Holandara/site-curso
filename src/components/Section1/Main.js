@@ -10,21 +10,7 @@ const MainSection = () => {
         <div></div>
       </div>
       <div className="right-block">
-        <div className="images">
-          {/* Content for the right block */}
-          <div className="image1">
-            <img src="blob.svg" alt="blob" />
-          </div>
-          <div className="image2">
-            <img src="blob-line.svg" alt="blob line" />
-          </div>
-          <div className="image3">
-            <img src="foto-braco.jpg" alt="img braco" />
-          </div>
-          <div className="image4">
-            <img src="Fitchek_Baixa-1.jpg" alt="img fitcheck" />
-          </div>
-        </div>
+        <img src="Group_1.png" alt="placeholder" />
       </div>
     </main>
   );
