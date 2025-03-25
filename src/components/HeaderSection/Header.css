@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+/* Estilos para o Header fixo */
 .header {
   background-color: black; /* bg-gray-800 */
   color: #fff; /* text-white */
@@ -13,6 +14,18 @@
   position: fixed; /* fixed */
   width: 100%; /* w-full */
   z-index: 10; /* z-10 */
+  border-bottom: solid; /* Add solid border */
+  border-image: var(--my-gradient) 1; /* Apply gradient to border */
+}
+
+/* Estilos para o Header relativo */
+.header-relative {
+  background-color: black; /* bg-gray-800 */
+  color: #fff; /* text-white */
+  padding: 1rem 0; /* py-4 */
+  position: relative; /* relative */
+  width: 100%; /* w-full */
+  z-index: 9; /* z-9 */
   border-bottom: solid; /* Add solid border */
   border-image: var(--my-gradient) 1; /* Apply gradient to border */
 }
@@ -52,7 +65,7 @@ li:hover {
   color: #c0c0c0; /* hover:text-gray-300 */
 }
 
-/* Media for large tablets and smaller desktops */
+/* Media queries para responsividade */
 @media (max-width: 1200px) {
   .container {
     max-width: 960px; /* Adjust container width */
@@ -67,7 +80,6 @@ li:hover {
   }
 }
 
-/* Media for tablets */
 @media (max-width: 1024px) {
   .container {
     max-width: 768px; /* Further adjust container width */
@@ -83,7 +95,6 @@ li:hover {
   }
 }
 
-/* Media for smartphones */
 @media (max-width: 767px) {
   .container {
     flex-direction: column; /* Stack items vertically */
@@ -106,7 +117,6 @@ li:hover {
   }
 }
 
-/* Media for small smartphones */
 @media (max-width: 480px) {
   .logo {
     font-size: 1rem; /* Further reduce logo font size */

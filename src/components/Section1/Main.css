@@ -3,12 +3,12 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #0D0C0C;
   padding: 20px;
 }
 
 .left-block {
-  background-color: #0a0096;
+  background-color: #0D0C0C;
   height: 100%;
   width: 50%;
 }
@@ -19,7 +19,7 @@
   align-items: center;
   height: 100%;
   width: 50%;
-  background-color: #ff0000;
+  background-color: #0D0C0C;
   position: relative;
 }
 
@@ -65,5 +65,60 @@ img{
   z-index: 4;
 }
 
+.lado1 {
+  color: white;
+  padding-top: 0%;
+  padding-left: 15%;
+  background-color:transparent;
+  margin-left: 10%;
+  max-width: 100%;
+  z-index: 2; /* Define um z-index maior para ficar na frente */
+  position: relative; /* Certifique-se de que a posição seja relativa */
+}
 
+.texto-domine {
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  padding-top: 6.25rem;
+}
 
+.texto-pratica {
+  font-family: "LEMON MILK", sans-serif;
+  font-weight: 500;
+  font-size: 6rem;
+  background: linear-gradient(
+    71deg,
+    rgba(164, 97, 239, 1) 0%,
+    rgba(250, 100, 160, 1) 50%,
+    rgba(254, 155, 98, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-curso {
+  font-family: "Montserrat", serif;
+  font-size: 1.25rem;
+}
+
+.botao {
+  margin-top: 8%;
+  font-family: "Montserrat", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  align-content: center;
+  width: 21rem;
+  height: 5rem;
+  padding: 2%;
+  align-self: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(164, 97, 239, 1) 0%,
+    rgba(250, 100, 160, 1) 50%,
+    rgba(254, 155, 98, 1) 100%
+  );
+}
